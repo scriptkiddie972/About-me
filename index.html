@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="about">
+    <div class="main">
+      <img src="/images/shrek.jpeg" alt="Image of Shrek">
+      <div class="about-text">
+        <h1>About Me</h1>
+        <h5>Angus R <span>*-_-*</span></h5>
+        <p>I Eat, Sleep, Repeat</p>
+        <button type="button" id="surpriseButton" class="Surpise">Surprise</button>
+      </div>
+    </div>
+  </section>
+  <script>
+    document.getElementById('surpriseButton').addEventListener('click', function() {
+      window.location.href = 'page2.html'; 
+    });
+  </script>
+</body>
+</html>
